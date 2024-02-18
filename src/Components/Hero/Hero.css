@@ -1,0 +1,51 @@
+.hero {
+  background: linear-gradient(#fff, #f7ce68, #fbab7e);
+  height: 100vh;
+  display: flex;
+}
+.hero .hero-left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 180px;
+  line-height: 1.1;
+}
+.hero .hero-left h2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #090909;
+}
+.hero .hero-left p {
+  columns: #030303;
+  font-weight: 700;
+  font-size: 80px;
+}
+.hero .hero-left .latest-coll-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 310px;
+  height: 70px;
+  border-radius: 75px;
+  background-color: crimson;
+  margin-top: 30px;
+  color: #fff;
+  gap: 15px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.hero .hero-left .latest-coll-btn img {
+  height: 25px;
+  width: 25px;
+}
+.hero .hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .hero-right img {
+  height: 690px;
+}

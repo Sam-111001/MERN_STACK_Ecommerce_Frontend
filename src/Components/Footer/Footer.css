@@ -1,0 +1,50 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.footer h1 {
+  color: black;
+  font-weight: 600;
+  font-size: 30px;
+}
+.footer ul {
+  margin-top: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 40vw;
+}
+.footer li {
+  width: 80px;
+  text-align: center;
+  font-size: 16px;
+}
+.footer .company-socials {
+  display: flex;
+  margin-top: 30px;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .company-socials div {
+  padding: 8px;
+  padding-bottom: 4px;
+  border: 1px solid #ebebeb;
+  background-color: #fbfbfb;
+  cursor: pointer;
+}
+.footer .company-socials div img {
+  height: 22px;
+}
+.footer hr {
+  margin-top: 20px;
+  height: 2px;
+  width: 85vw;
+  background-color: black;
+}
+.footer p {
+  margin-top: 20px;
+}
